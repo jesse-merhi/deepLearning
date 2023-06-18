@@ -77,4 +77,5 @@ def plot_hidden(net):
                 y[j] =  1
                 j = j+1
             if j > 1:
+                print(x,y)
                 plt.plot(x,y)
